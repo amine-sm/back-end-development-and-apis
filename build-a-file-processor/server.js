@@ -122,3 +122,6 @@ const fullpath = path.join(__dirname,'assets','poem.txt')
 console.log(path.basename(fullpath))
 console.log(path.dirname(fullpath))
 console.log(path.extname(fullpath))
+// lesson 22
+console.log(path.join("assets", "..", "server.js"));
+console.log(path.resolve("assets", "..", "server.js")); 
