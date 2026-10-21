@@ -68,11 +68,38 @@ console.log(Hash)
 */
 
 // lesson 15
-const crypto =require('crypto')
+/*const crypto =require('crypto')
 
 const random =crypto.randomBytes(16).toString("hex")
 
 console.log(random)
+*/
 // lesson 16
+/*
 const id = crypto.randomUUID();
-console.log(id)
+console.log(id)*/
+ // lesson 17
+ /*
+const os =require('os')
+
+console.log(os.platform())
+console.log(os.arch())
+console.log(os.hostname())
+
+*/
+// lesson 18
+/*
+const os = require('os');
+
+console.log(os.totalmem());
+console.log(os.totalmem());
+console.log(os.freemem());
+console.log(os.freemem());
+console.log(os.uptime());
+console.log(os.uptime());
+
+*/
+// lesson 19
+const os= require('os')
+
+console.log(os.cpus().length)
