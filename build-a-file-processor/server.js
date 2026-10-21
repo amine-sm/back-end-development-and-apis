@@ -100,6 +100,25 @@ console.log(os.uptime());
 
 */
 // lesson 19
+/*
 const os= require('os')
 
 console.log(os.cpus().length)
+*/
+// lesson 20
+/*
+const path = require('path')
+
+const fullpath= path.join(__dirname,'assets','poem.txt')
+
+console.log(fullpath)
+*/
+
+// lesson 21
+const path =require('path')
+
+const fullpath = path.join(__dirname,'assets','poem.txt')
+
+console.log(path.basename(fullpath))
+console.log(path.dirname(fullpath))
+console.log(path.extname(fullpath))
