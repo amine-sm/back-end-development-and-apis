@@ -115,6 +115,7 @@ console.log(fullpath)
 */
 
 // lesson 21
+/*
 const path =require('path')
 
 const fullpath = path.join(__dirname,'assets','poem.txt')
@@ -129,3 +130,24 @@ console.log(path.resolve("assets", "..", "server.js"));
 // lesson 23
 const parts=path.parse(fullpath)
 console.log(parts)
+*/
+// lesson 24
+
+ const version = process.version
+
+ console.log(version)
+ const platform=process.platform
+console.log(platform)
+
+const env =process.env.NODE_ENV
+console.log(env)
+
+// lesson 25
+console.log(process.argv); // [ '/path/to/node', '/path/to/server.js', 'hello', 'world' ]
+console.log(process.argv[2]);
+
+// lesson 26 
+
+
+process.stdout.write("Hello from stdout\n");
+process.stderr.write("Hello from stderr\n");
