@@ -132,7 +132,7 @@ const parts=path.parse(fullpath)
 console.log(parts)
 */
 // lesson 24
-
+/*
  const version = process.version
 
  console.log(version)
@@ -151,3 +151,25 @@ console.log(process.argv[2]);
 
 process.stdout.write("Hello from stdout\n");
 process.stderr.write("Hello from stderr\n");
+*/
+// lesson 27
+/*
+const readable = fs.createReadStream("assets/poem.txt", { encoding: "utf8" });
+
+readable.on("data", (chunk) => {
+  console.log(chunk);
+});
+
+readable.on("end", () => {
+  console.log("Done reading");
+});
+// lesson 28
+const writable = fs.createWriteStream("assets/stream-output.txt");
+writable.write("First chunk\n");
+writable.write("Second chunk\n");
+writable.end();
+*/
+// lesson 29
+const readable = fs.createReadStream("assets/poem.txt");
+const writable = fs.createWriteStream("assets/stream-output.txt");
+readable.pipe(writable);
