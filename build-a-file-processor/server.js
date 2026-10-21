@@ -125,3 +125,7 @@ console.log(path.extname(fullpath))
 // lesson 22
 console.log(path.join("assets", "..", "server.js"));
 console.log(path.resolve("assets", "..", "server.js")); 
+
+// lesson 23
+const parts=path.parse(fullpath)
+console.log(parts)
