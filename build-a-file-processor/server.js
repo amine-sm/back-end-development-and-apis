@@ -59,3 +59,9 @@ const decoded = Buffer.from("ZnJlZUNvZGVDYW1w", "base64").toString("utf8");
 console.log(decoded); 
 */
 
+// lesson 14
+
+const crypto =require('crypto')
+
+const Hash= crypto.createHash('sha256').update('freeCodeCamp!').digest('hex')
+console.log(Hash)
