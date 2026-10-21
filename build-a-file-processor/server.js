@@ -60,8 +60,19 @@ console.log(decoded);
 */
 
 // lesson 14
-
+/*
 const crypto =require('crypto')
 
 const Hash= crypto.createHash('sha256').update('freeCodeCamp!').digest('hex')
 console.log(Hash)
+*/
+
+// lesson 15
+const crypto =require('crypto')
+
+const random =crypto.randomBytes(16).toString("hex")
+
+console.log(random)
+// lesson 16
+const id = crypto.randomUUID();
+console.log(id)
