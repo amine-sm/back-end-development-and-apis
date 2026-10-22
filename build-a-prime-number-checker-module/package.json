@@ -1,0 +1,13 @@
+{
+  "name": "build-a-prime-number-checker-module",
+  "version": "1.4.5",
+  "description": "Build a Prime Number Checker Module",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": []
+}
