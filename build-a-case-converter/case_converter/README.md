@@ -1,0 +1,25 @@
+
+# Case Converter
+
+## Installation
+
+To install the project, run the following command:
+
+```bash
+npm install case_converter
+```
+
+## Usage
+
+To use the package, import the functions into your JavaScript file:
+
+```js
+const caseConverter = require("./index");
+const str = "hello free Code Camp!";
+console.log(caseConverter.getUpperCase(str)); // HELLO FREE CODE CAMP!
+console.log(caseConverter.getLowerCase(str)); // hello free code camp!
+console.log(caseConverter.getProperCase(str)); // Hello Free Code Camp!
+console.log(caseConverter.getSentenceCase(str)); // Hello free code camp!
+```
+## License
+MIT
