@@ -52,14 +52,14 @@
     "blockingTests": true,
     "breakOnFailure": true,
     "numberOfLessons": 1,
-    "completedDate": 1792671881406
+    "completedDate": 1792672552356
   },
   {
     "id": 4,
     "dashedName": "build-a-web-server",
     "isIntegrated": false,
     "isPublic": true,
-    "currentLesson": 0,
+    "currentLesson": 8,
     "runTestsOnWatch": true,
     "seedEveryLesson": true,
     "isResetEnabled": false,
